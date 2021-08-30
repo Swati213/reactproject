@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Mate+SC&family=Raleway&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;600&family=Squada+One&display=swap");
+
+
+a.active_class{
+    color:#ffffff;
+    border-bottom: 1px solid red;
+    font-family: "Bitter", serif;
+    
+  
+}
+.style_search{
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+    text-align: center;
+}
+.style_search input{
+    margin: 30px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace, "Bitter", serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+p{
+    font-weight: 450px bold;
+    font-style: italic;
+    font: 1em sans-serif;
+}
+a{
+    color: #61daff;
+}
+.menu_style{
+    width: 100%;
+    line-height:60px;
+    background-color: #20232a;
+    display: flex;
+    justify-content: space-around;
+}
