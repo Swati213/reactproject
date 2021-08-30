@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,200&display=swap");
+* {
+  padding: 0%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin-left: 30rem;
+  width: 100vh;
+  background-color: #34495e;
+  display: flex;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 5%;
+  height: 28rem;
+  width: 26rem;
+  background-color: rgb(18, 176, 238);
+}
+form:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
+input {
+  text-align: center;
+
+  background-color: aliceblue;
+  color: black;
+  border-radius: 0.5rem;
+  width: 19rem;
+  padding: 10px;
+  font-weight: 700;
+}
+
+label {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+button {
+  margin-left: 2px;
+  background-color: skyblue;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  height: 2rem;
+  width: 5.7rem;
+  font-weight: 200;
+  font-size: 1rem;
+  color: white;
+}
+button:hover {
+  background-color: darkblue;
+  transform: scale(1.05, 1.05);
+}
+.show {
+  background-color: rgb(18, 176, 238);
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  border-radius: 35px;
+  width: 50rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  align-items: center;
+}

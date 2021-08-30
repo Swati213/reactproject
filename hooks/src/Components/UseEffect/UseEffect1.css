@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,200&display=swap");
+* {
+  padding: 0%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  margin-left: 25rem;
+  width: 100vh;
+  background-color: #34495e;
+  display: flex;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+.App-Link {
+  color: #8be3fb;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.h1style{
+  background-color: aliceblue;
+  color:rgb(58, 167, 204);
+  border-radius: 35px;
+  width:45rem;
+  padding: 10px;
+}
+.btn{
+  margin:auto;
+  margin-top: 2rem;
+  border:none;
+  outline:none;
+  padding:0.5rem 1.5rem;
+  background-color: #2980b9;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.btn:hover{
+  background-color:#136ca7;
+}
+
+@media screen and (max-width: 500px) {
+  body, h1, p,button {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
